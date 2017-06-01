@@ -1,0 +1,129 @@
+
+
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading span {
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+.main
+{
+  margin-left:auto; 
+  margin-right:auto; 
+  width:1250px;
+}
+
+.navbar
+{
+  -moz-border-radius:7px; 
+  -webkit-border-radius:7px; 
+  border-radius:7px;
+}
+
+.well
+{
+  -moz-border-radius:10px; 
+  -webkit-border-radius:10px; 
+  border-radius:10px;
+}
+
+img
+{
+  -moz-border-radius:7px; 
+  -webkit-border-radius:7px; 
+  border-radius:7px;
+}
+
+
+
+
+           ::-webkit-input-placeholder {
+               font-style: italic;
+            }
+            :-moz-placeholder {
+               font-style: italic;  
+            }
+            ::-moz-placeholder {
+               font-style: italic;  
+            }
+            :-ms-input-placeholder {  
+               font-style: italic; 
+            }
+
+            .navigation {
+              color: #000;  
+            }
+
+            .navigation a, .navigation span {
+              display: block;
+              padding: 4px 10px;
+              color: #000;
+              background: #fff url(menu-item.png) left bottom no-repeat;
+            }
+
+            .navigation .subMenu {
+              font-size: .8em;
+              font-size: .9em;
+              padding-left: 20px;
+            }
+
+            .navigation a{
+                position: relative;
+                display: block;
+                padding: .4em .4em .4em 2em;
+                margin: .5em 0;
+                background: #fff;
+                color: #444;
+                text-decoration: none;
+                border-radius: .3em;
+                transition: all .3s ease-out;   
+            }
+
+            .navigation a:hover{
+                background: #5F9EA0;
+                color:#fff;
+            }
+
+            .navigation ul.subMenu a:hover{
+              background: #2E8B57;
+              color: #fff;
+            }
+
+            .navigation a:before{
+                content: counter(li);
+                color:#87ceeb;
+                position: absolute; 
+                left: -1.3em;
+                top: 50%;
+                margin-top: -1.3em;
+                background: #87ceeb;
+                height: 2em;
+                width: 2em;
+                line-height: 2em;
+                border: .3em solid #fff;
+                text-align: center;
+                font-weight: bold;
+                border-radius: 2em;
+                transition: all .3s ease-out;
+            }
+
+            .navigation ul.subMenu a:before{
+                content: counter(li);
+                color:#9ACD32;
+                position: absolute; 
+                left: -1.3em;
+                top: 50%;
+                margin-top: -1.3em;
+                background: #9ACD32;
+                height: 2em;
+                width: 2em;
+                line-height: 2em;
+                border: .3em solid #fff;
+                text-align: center;
+                font-weight: bold;
+                border-radius: 2em;
+                transition: all .3s ease-out;
+            }
